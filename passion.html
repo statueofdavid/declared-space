@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('bird-passion-background.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	positive: relative;
+	margin: 0;
+	border: 0;
+	top: 15%;
+	left: 25%;
+	text-align: center;
+	font-size: 5vw;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 30px;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #d9d9d9;
+	padding-bottom: 15px
+}
+
+img{
+	position: relative;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border: 10px solid #638299;
+}
+
+.name{
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 5vw;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+	border-bottom-width: 5px;
+
+}
+
+.socialmedia{
+	position: relative;
+	left: 35%;
+	top: 40%;
+	width: 30%;
+}
+
+.profile{
+	height: 800px;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 180px;
+}
+
+.subtitle{
+	height: 7vw;
+	text-align: center;
+	text-size: 2vw;
+	color: #638299;
+
+}
+
+.aboutme{
+	margin-top: 30px;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex:1;
+	text-align: center;
+
+}
+
+.profilepic{}
+
+.summary{text-align: left;}
+
+.details{text-align: left;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.fa:hover {
+    opacity: 1.0;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if nee$
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="parallax">
+	<div class="name">About Me
+	</div>
+</div>
+
+<div class="profile">
+	<h1>David Vincent Miller</h1>
+	<h2 class="subtitle">Automate Everything</h2>
+	<div class="aboutme">
+		<div class="row">
+			<div class="column">
+				<h3>Summary</h3>
+				<p class="summary">
+					I am a positive, productive developer poised for success.  I am a hard worker and I am always looking to improve the work I do and how I do it.  When at home, I am teaching my kids what I know and building on the relationships important to me.
+				</p>
+			</div>
+			<div class="column">
+				<div class="profilepic">
+					<img src="profilepic.jpg"></img>
+				</div>
+			</div>
+			<div class="column">
+				<h3>Details</h3>
+				<ul class="details">
+					<li>Name: David Vincent Miller</li>
+					<li>Age: 37</li>
+					<li>Identity: Human</li>
+					<li>Location: Williamsburg, VA</li>
+				<ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="parallax">
+	<div class="socialmedia">
+		<a href="https://www.twitter.com/StatueOfDavid" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="https://www.linkedin.com/in/dmill" class="fa fa-linkedin"></a>
+		<a href="https://www.youtube.com/c/DavidMillerGoogleProfile" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-snapchat-ghost"></a>
+		<a href="#" class="fa fa-skype"></a>
+		<a href="#" class="fa fa-android"></a>
+		<a href="#" class="fa fa-reddit"></a>
+		<a href="#" class="fa fa-rss"></a>
+</div>
+</div>
+
+</body>
+</html>

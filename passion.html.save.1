@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('bird-passion-background.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	positive: relative;
+	margin: 0;
+	border: 0;
+	top: 15%;
+	left: 25%;
+	text-align: center;
+	font-size: 6vw;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+img{
+	position: relative;
+	border: 20%;
+	left: 40%;
+	top: 50%;
+	border-radius: 50%;
+	height: 20%;
+	width: 20%;
+}
+
+.profile{
+	height: 1000px;
+	background-color: #d9d9d9;
+}
+
+.name{
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 6vw;
+	font-weight: bold;
+	border-bottom-color: red;
+	border-bottom-width: 5px;
+	
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if nee$
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="parallax">
+	<div class="name">David Vincent Miller
+	</div>
+</div>
+
+<div class="profile">
+	<h1>About Me</h1>
+	<img src="profilepic.jpg"></img>
+</div>
+
+<div class="parallax"></div>
+
+</body>
+</html>
+

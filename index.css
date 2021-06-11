@@ -1,0 +1,16 @@
+path {
+	fill: #d9d9d9;
+	stroke: white;
+	stroke-width:1.0;
+	opacity: 0.5;
+	opacity: 0.5;
+	transition:opacity, stroke-width 0.65s;
+}
+
+path:hover{
+	fill:#d9d9d9;
+	stroke: red!important;
+	opacity: 1.0;
+	stroke-width: 20;
+	stroke-opacity:1.0
+}
