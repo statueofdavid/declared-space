@@ -14,3 +14,86 @@ path:hover{
 	stroke-width: 20;
 	stroke-opacity:1.0
 }
+
+svg text{
+	stroke: #00FFFF;
+	font-size: 200%;
+	opacity: 1.0;
+	stroke-width: 1;
+	stroke-opacity:1.0
+}
+/*TODO add line below text and research other animations for svg text*/
+#passion-text{
+	display: none;
+}
+
+#passion:hover + #passion-text{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+	border-bottom: 1% solid #00FFFF;
+}
+
+#listen-text{
+	display: none;
+}
+
+#listen:hover + #listen-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+#plan-text{
+	display: none;
+}
+
+#plan:hover + #plan-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+#action-text{
+	display: none;
+}
+
+#action:hover + #action-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+#feel-text{
+	display: none;
+}
+
+#feel:hover + #feel-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+#create-text{
+	display: none;
+}
+
+#create:hover + #create-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+#vision-text{
+	display: none;
+}
+
+#vision:hover + #vision-text{
+	display: inline;
+		animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate{
+	0%{
+		stroke-dasharray: 0 10%;
+		stroke-dashoffset: 10%;
+	}
+	100%{
+		stroke-dasharray: 10% 0;
+		stroke-dashoffset: -10%;
+	}
+}
