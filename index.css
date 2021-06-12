@@ -8,6 +8,40 @@ path {
 }
 
 path:hover{
+	/* fill:#d9d9d9;
+
+	opacity: 1.0;
+	stroke-opacity:1.0 */
+	stroke-width: 5;
+	stroke: #ff6699;
+	animation: neuronAnimate 10s infinite alternate;
+}
+
+svg text{
+	stroke: #00003f;
+	font-size: 200%;
+	opacity: 1.0;
+	stroke-width: 2;
+}
+/*TODO add line below text and research other animations for svg text*/
+
+#grey-matter-text{
+	display: none;
+	font-size: 325%;
+}
+
+#grey-matter-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+}
+
+#grey-matter:hover + #grey-matter-text{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+	border-bottom: 1% solid #00FFFF;
+}
+
+#grey-matter-text:hover + #grey-matter{
 	fill:#d9d9d9;
 	stroke: red!important;
 	opacity: 1.0;
@@ -15,26 +49,27 @@ path:hover{
 	stroke-opacity:1.0
 }
 
-svg text{
-	stroke: #00FFFF;
-	font-size: 200%;
-	opacity: 1.0;
-	stroke-width: 1;
-	stroke-opacity:1.0
-}
-/*TODO add line below text and research other animations for svg text*/
 #passion-text{
 	display: none;
+}
+
+#passion-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
 }
 
 #passion:hover + #passion-text{
 	display: inline;
 	animation: textAnimate 5s infinite alternate;
-	border-bottom: 1% solid #00FFFF;
 }
 
 #listen-text{
 	display: none;
+}
+
+#listen-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
 }
 
 #listen:hover + #listen-text{
@@ -46,6 +81,11 @@ svg text{
 	display: none;
 }
 
+#plan-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+}
+
 #plan:hover + #plan-text{
 	display: inline;
 		animation: textAnimate 5s infinite alternate;
@@ -53,6 +93,11 @@ svg text{
 
 #action-text{
 	display: none;
+}
+
+#action-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
 }
 
 #action:hover + #action-text{
@@ -64,6 +109,11 @@ svg text{
 	display: none;
 }
 
+#feel-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+}
+
 #feel:hover + #feel-text{
 	display: inline;
 		animation: textAnimate 5s infinite alternate;
@@ -73,6 +123,11 @@ svg text{
 	display: none;
 }
 
+#create-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
+}
+
 #create:hover + #create-text{
 	display: inline;
 		animation: textAnimate 5s infinite alternate;
@@ -80,6 +135,11 @@ svg text{
 
 #vision-text{
 	display: none;
+}
+
+#vision-text:hover{
+	display: inline;
+	animation: textAnimate 5s infinite alternate;
 }
 
 #vision:hover + #vision-text{
@@ -96,4 +156,29 @@ svg text{
 		stroke-dasharray: 10% 0;
 		stroke-dashoffset: -10%;
 	}
+}
+
+@keyframes neuronAnimate{
+	0%{
+		stroke-dasharray: 0 1%;
+		stroke-dashoffset: 44%;
+	}
+	100%{
+		stroke-dasharray: 1% 0;
+		stroke-dashoffset: -44%;
+	}
+}
+
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
 }
