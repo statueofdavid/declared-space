@@ -5,6 +5,9 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Oswald', sans-serif;
 }
+body{
+  background-color: #00003f;
+}
 .wrapper{
   position: fixed;
   top: 0;
@@ -162,10 +165,4 @@ input[type="checkbox"]{
 	transition-timing-function: ease, cubic-bezier(.1,1.3,.3,1); /* easeOutBackを緩めた感じ */
    transition-delay: .6s;
   transform: translateX(-100px);
-}
-
-.hello-world-vr {
-  height:300px;
-  width:300px;
-  border: 5px solid #00003f;
 }
