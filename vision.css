@@ -141,14 +141,6 @@ input[type="checkbox"]{
   width: 100%;
   color: #202020;
 }
-.content .title{
-  font-size: 40px;
-  font-weight: 700;
-}
-.content p{
-  font-size: 35px;
-  font-weight: 600;
-}
 
 #active:checked ~ .wrapper ul li a{
   opacity: 1;
@@ -166,8 +158,8 @@ input[type="checkbox"]{
 
 .hello-world-vr {
   position: relative;
-  height:300px;
-  width:300px;
+  height:175px;
+  width:175px;
   border: 5px solid #00003f;
   -moz-box-shadow: 1px 2px 3px #ff6699;
   -webkit-box-shadow: 1px 2px 3px #ff6699;
@@ -175,6 +167,7 @@ input[type="checkbox"]{
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 10px;
+  transform: translateZ(1000px) !important; 
 }
 
 .hello-world-vr:hover {
