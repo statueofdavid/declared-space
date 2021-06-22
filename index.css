@@ -1,3 +1,31 @@
+html {
+    height: 100%;
+}
+body {
+	margin: 0;
+  min-height: 100%;
+}
+
+ul {
+	margin-top: 0;
+	display: none;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #d9d9d9;
+}
+
+li {
+	min-width: 100%;
+	margin: auto;
+	color: #00003f;
+	font-size: xx-large;
+	list-style-type: none;
+}
+
 path {
 	fill: #d9d9d9;
 	stroke: white;
@@ -183,13 +211,23 @@ opacity: 1;
   }
 }
 
-@media only screen and (min-width: 393px) and (max-width: 767px)
+@media only screen and (min-width: 0px) and (max-width: 767px)
 {
-
 	svg {
-		width: 50px;
-		height: 50px;
+		width: 72px;
+		height: 72px;
 		float: right;
+		background: transparent;
+		border-color: transparent;
+	}
+
+	svg:hover + ul {
+		display: block;
+	}
+
+	path:hover {
+		stroke-width: 20;
+		stroke: #800000;
 	}
 
 	#passion{display: none;}
@@ -201,12 +239,49 @@ opacity: 1;
 	#vision{display: none;}
 	#grey-matter:hover + #grey-matter-text{display: none;}
 
-	#grey-matter{
+	#grey-matter {
 	  position: absolute;
-	  z-index: 2;
-
 	  cursor: pointer;
-		fill: #333;
-
+		fill: #ff6699;
 	}
+
+	input[type=checkbox]{
+	  display: none;
+	}
+
+	input[type=checkbox] ~ ul {
+		animation-duration: 0.6s;
+		animation-name: slideout;
+	}
+
+	input[type=checkbox]:checked ~ ul {
+    display: block;
+		animation-duration: 0.6s;
+		animation-name: slidein;
+	}
+
+	input[type=checkbox]:checked ~ label > svg > #grey-matter {
+		fill: #800000;
+	}
+
+	@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+
+	@keyframes slideout {
+	from {
+			margin-left: 0%;
+			width: 100%;
+		}
+
+	to {
+		margin-left: 100%;
+		width: 300%;
+	}
+
 }
