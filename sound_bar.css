@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+	box-sizing: border_box;
+}
+
+body {
+	background-color: #30475e;
+	font-family: 'Schoolbell', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+}
+
+.btn {
+	background-color: #f05454;
+	border-radius: 2px;
+	border: none;
+	color: #e8e8e8;
+	margin: 1rem;
+	padding: 1.5rem 3rem;
+	font-size: 1.3rem;
+	font-family: inherit;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:active {
+	transform: scale(0.8);
+	transform: translateY(4px);
+	box-shadow: 0 0 10px #e8e8e8;
+}
+
+
