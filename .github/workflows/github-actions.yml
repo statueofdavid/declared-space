@@ -1,0 +1,19 @@
+name: Build and Deploy
+run-name: ${{ github.actor }} is testing this out
+on: 
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # TODO figure out how to deploy my shit manually
+      - name: install some shit
+        run: echo
+      - name: Run a one-liner
+        run: echo
+      - name: put files on server
+        run: echo
