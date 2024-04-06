@@ -1,0 +1,15 @@
+{
+	"capabilities": {
+		"browserName": "chrome",
+		"browserVersion": "114",
+		"platformName": "linux",
+		"acceptInsecureCerts": "true",
+		"pageLoadStrategy": "none",
+		"timeouts": {
+			"script": "none",
+			"pageload": "none",
+			"implicit": "none"
+		}
+
+	}
+}
