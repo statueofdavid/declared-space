@@ -2,3 +2,16 @@
 04/07/2024 10:55:32 AM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/'}
 04/07/2024 10:56:28 AM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/'}
 04/07/2024 10:58:18 AM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/'}
+04/07/2024 12:54:17 PM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/', 'CHROME_EXECUTABLE': './chromedriver', 'GECKO_EXECUTABLE': './geckodriver'}
+04/07/2024 12:59:57 PM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/', 'CHROME_EXECUTABLE': './chromedriver', 'GECKO_EXECUTABLE': './geckodriver'}
+04/07/2024 12:59:57 PM paths found:  
+04/07/2024 05:18:37 PM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/', 'CHROME_EXECUTABLE': './chromedriver', 'GECKO_EXECUTABLE': './geckodriver'}
+04/07/2024 05:19:33 PM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/', 'CHROME_EXECUTABLE': './chromedriver', 'GECKO_EXECUTABLE': './geckodriver'}
+04/07/2024 05:20:07 PM {'CHROME_PATH': '../data/chromedriver-linux64/', 'GECKO_PATH': '../data/', 'CHROME_EXECUTABLE': './chromedriver', 'GECKO_EXECUTABLE': './geckodriver'}
+04/07/2024 05:20:07 PM paths found:  
+04/07/2024 05:21:09 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver'}
+04/07/2024 05:21:09 PM paths found:  
+04/07/2024 05:22:54 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver'}
+04/07/2024 05:22:54 PM found: ../data/chromedriver-linux64/./chromedriver
+04/07/2024 05:22:54 PM found: ../data/./geckodriver
+04/07/2024 05:22:54 PM paths found: ../data/chromedriver-linux64/./chromedriver ../data/./geckodriver

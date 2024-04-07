@@ -1,4 +1,2 @@
-CHROME_PATH: ../data/chromedriver-linux64/
-GECKO_PATH: ../data/
-CHROME_EXECUTABLE: ./chromedriver
-GECKO_EXECUTABLE: ./geckodriver
+CHROME_PATH: ../data/chromedriver-linux64/./chromedriver
+GECKO_PATH: ../data/./geckodriver

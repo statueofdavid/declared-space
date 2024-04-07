@@ -16,11 +16,15 @@ logging.debug(configAsDictionary)
 
 gecko = ''
 chrome = ''
-for name, path in configAsDictionary.items():
-    if path == 'CHROME_PATH':
-        chrome = path + './chromedriver'
-    if path == 'GECKO_PATH':
-        gecko = path + './geckodriver'
+for name, configValue in configAsDictionary.items():
+    if name == 'CHROME_PATH':
+        chrome = configValue
+        logging.debug('found: ' + chrome)
+    if name == 'GECKO_PATH':
+        gecko = configValue
+        logging.debug('found: ' + gecko)
+
+logging.debug('paths found: ' + chrome + ' ' + gecko)
 
 drivers = [subprocess.Popen(program) for program in [chrome, gecko]]
 for driver in drivers:
