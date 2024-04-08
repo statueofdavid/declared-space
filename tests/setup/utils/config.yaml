@@ -1,0 +1,2 @@
+CHROME_PATH: ../data/chromedriver-linux64/./chromedriver
+GECKO_PATH: ../data/./geckodriver
