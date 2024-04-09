@@ -20,3 +20,53 @@
 04/09/2024 01:44:23 AM Starting new HTTP connection (1): localhost:4444
 04/09/2024 01:44:23 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
 04/09/2024 01:44:23 AM <Response [405]>
+04/09/2024 08:47:46 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:47:46 AM session path: ../data/session/
+04/09/2024 08:47:46 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:47:46 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:49:29 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:49:29 AM session path: ../data/session/
+04/09/2024 08:49:29 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:49:29 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:49:29 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 08:49:29 AM <Response [405]>
+04/09/2024 08:54:42 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:54:42 AM session path: ../data/session/
+04/09/2024 08:54:42 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:54:42 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:54:42 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 08:54:42 AM <Response [405]>
+04/09/2024 09:09:30 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:09:30 AM session path: ../data/session/
+04/09/2024 09:09:30 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:09:30 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 09:09:30 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 09:09:30 AM <Response [405]>
+04/09/2024 09:12:31 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:12:31 AM session path: ../data/session/
+04/09/2024 09:12:31 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:12:31 AM server path: http://localhost:4444, file path: ../data/session/chrome-session-details.json
+04/09/2024 09:12:31 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 09:12:31 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 09:12:31 AM <Response [405]>
+04/09/2024 09:38:53 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:38:53 AM session path: ../data/session/
+04/09/2024 09:38:53 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:38:53 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:38:53 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:38:53 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:40:59 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:40:59 AM session path: ../data/session/
+04/09/2024 09:40:59 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:40:59 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:40:59 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:40:59 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:41:20 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:41:20 AM session path: ../data/session/
+04/09/2024 09:41:20 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:41:20 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:41:20 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:41:20 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:41:20 AM <Response [404]>
+04/09/2024 09:41:20 AM <Response [404]>
+04/09/2024 09:41:20 AM not the id
