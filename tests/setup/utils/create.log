@@ -1,0 +1,22 @@
+04/09/2024 12:14:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:19:04 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:22:06 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:23:53 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:23:53 AM session path: SESSION_PATH
+04/09/2024 12:24:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:24:23 AM session path: ../data/session/
+04/09/2024 01:11:01 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:11:01 AM session path: ../data/session/
+04/09/2024 01:11:01 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:42:31 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:42:31 AM session path: ../data/session/
+04/09/2024 01:42:31 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:42:31 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 01:42:31 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 01:42:31 AM <Response [405]>
+04/09/2024 01:44:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:44:23 AM session path: ../data/session/
+04/09/2024 01:44:23 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:44:23 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 01:44:23 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 01:44:23 AM <Response [405]>
