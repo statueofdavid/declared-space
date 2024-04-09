@@ -14,6 +14,12 @@ configToOpen = open('config.yaml', 'r')
 configAsDictionary = load(configToOpen, Loader=Loader)
 logging.debug(configAsDictionary)
 
+# Should I: 
+# store webdriver server logs
+# store webdriver responses
+# add rotating logging
+# research what can be optimized to improve the quality of life
+
 gecko = ''
 chrome = ''
 for name, configValue in configAsDictionary.items():
@@ -31,5 +37,4 @@ logging.debug('paths found: ' + chrome + ' ' + gecko)
 
 drivers = [subprocess.Popen(program) for program in [chrome, gecko]]
 for driver in drivers:
-    driver.wait()
-    
+    driver.wait() 

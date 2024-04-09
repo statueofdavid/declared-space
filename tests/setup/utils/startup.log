@@ -15,3 +15,8 @@
 04/07/2024 05:22:54 PM found: ../data/chromedriver-linux64/./chromedriver
 04/07/2024 05:22:54 PM found: ../data/./geckodriver
 04/07/2024 05:22:54 PM paths found: ../data/chromedriver-linux64/./chromedriver ../data/./geckodriver
+04/09/2024 01:10:06 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:10:06 AM found: ../data/chromedriver-linux64/./chromedriver
+04/09/2024 01:10:06 AM found: ../data/./geckodriver
+04/09/2024 01:10:06 AM not found: SESSION_PATH
+04/09/2024 01:10:06 AM paths found: ../data/chromedriver-linux64/./chromedriver ../data/./geckodriver
