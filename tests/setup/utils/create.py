@@ -51,11 +51,3 @@ for file in files:
         
         session_id = get_session_id(session_response)
         logging.debug('Created, id: ' + session_id)
-
-# UNTESTED because my firefox installation is broken cause I didn't thoughtfully update my desktop environment
-#    if file.find('gecko'):
-#        logging.debug('server path: ' + gecko + ', file path: ' + session + file)
-#        session_response = requests.post(gecko + '/session', headers=headers, data=body)
-#        logging.debug(session_response)
-
-#        response_parser(session_response)
