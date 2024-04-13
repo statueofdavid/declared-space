@@ -1,2 +1,5 @@
 CHROME_PATH: ../data/chromedriver-linux64/./chromedriver
+CHROME_SOCKET: http://localhost:9515
 GECKO_PATH: ../data/./geckodriver
+GECKO_SOCKET: http://localhost:4444
+SESSION_PATH: ../data/session/

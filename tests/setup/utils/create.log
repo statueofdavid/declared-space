@@ -1,0 +1,255 @@
+04/09/2024 12:14:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:19:04 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:22:06 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:23:53 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:23:53 AM session path: SESSION_PATH
+04/09/2024 12:24:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 12:24:23 AM session path: ../data/session/
+04/09/2024 01:11:01 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:11:01 AM session path: ../data/session/
+04/09/2024 01:11:01 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:42:31 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:42:31 AM session path: ../data/session/
+04/09/2024 01:42:31 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:42:31 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 01:42:31 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 01:42:31 AM <Response [405]>
+04/09/2024 01:44:23 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 01:44:23 AM session path: ../data/session/
+04/09/2024 01:44:23 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 01:44:23 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 01:44:23 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 01:44:23 AM <Response [405]>
+04/09/2024 08:47:46 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:47:46 AM session path: ../data/session/
+04/09/2024 08:47:46 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:47:46 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:49:29 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:49:29 AM session path: ../data/session/
+04/09/2024 08:49:29 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:49:29 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:49:29 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 08:49:29 AM <Response [405]>
+04/09/2024 08:54:42 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 08:54:42 AM session path: ../data/session/
+04/09/2024 08:54:42 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 08:54:42 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 08:54:42 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 08:54:42 AM <Response [405]>
+04/09/2024 09:09:30 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:09:30 AM session path: ../data/session/
+04/09/2024 09:09:30 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:09:30 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 09:09:30 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 09:09:30 AM <Response [405]>
+04/09/2024 09:12:31 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:12:31 AM session path: ../data/session/
+04/09/2024 09:12:31 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:12:31 AM server path: http://localhost:4444, file path: ../data/session/chrome-session-details.json
+04/09/2024 09:12:31 AM Starting new HTTP connection (1): localhost:4444
+04/09/2024 09:12:31 AM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/09/2024 09:12:31 AM <Response [405]>
+04/09/2024 09:38:53 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:38:53 AM session path: ../data/session/
+04/09/2024 09:38:53 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:38:53 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:38:53 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:38:53 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:40:59 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:40:59 AM session path: ../data/session/
+04/09/2024 09:40:59 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:40:59 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:40:59 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:40:59 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:41:20 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 09:41:20 AM session path: ../data/session/
+04/09/2024 09:41:20 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 09:41:20 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 09:41:20 AM Starting new HTTP connection (1): localhost:9515
+04/09/2024 09:41:20 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 09:41:20 AM <Response [404]>
+04/09/2024 09:41:20 AM <Response [404]>
+04/09/2024 09:41:20 AM not the id
+04/09/2024 04:00:22 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/09/2024 04:00:22 PM session path: ../data/session/
+04/09/2024 04:00:22 PM ['chrome-session-details.json', 'gecko-session-details.json']
+04/09/2024 04:00:22 PM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/09/2024 04:00:22 PM Starting new HTTP connection (1): localhost:9515
+04/09/2024 04:00:22 PM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/09/2024 04:00:22 PM <Response [404]>
+04/09/2024 04:00:22 PM <Response [404]>
+04/09/2024 04:00:22 PM not the id
+04/12/2024 09:22:51 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 09:22:51 AM session path: ../data/session/
+04/12/2024 09:22:51 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 09:22:51 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 09:22:51 AM Starting new HTTP connection (1): localhost:9515
+04/12/2024 09:22:51 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/12/2024 09:22:51 AM <Response [404]>
+04/12/2024 09:22:51 AM <Response [404]>
+04/12/2024 09:22:51 AM not the id
+04/12/2024 09:24:34 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 09:24:34 AM session path: ../data/session/
+04/12/2024 09:24:34 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 09:24:34 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 09:24:34 AM Starting new HTTP connection (1): localhost:9515
+04/12/2024 09:24:34 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/12/2024 09:24:34 AM <Response [404]>
+04/12/2024 09:24:34 AM <Response [404]>
+04/12/2024 09:24:34 AM not the id
+04/12/2024 09:30:04 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 09:30:04 AM session path: ../data/session/
+04/12/2024 09:30:04 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 09:30:04 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 09:30:04 AM Starting new HTTP connection (1): localhost:9515
+04/12/2024 09:30:04 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/12/2024 09:30:04 AM <Response [404]>
+04/12/2024 09:30:04 AM <Response [404]>
+04/12/2024 09:30:04 AM not the id
+04/12/2024 09:40:35 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 09:40:35 AM session path: ../data/session/
+04/12/2024 09:40:35 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 09:43:47 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 09:43:47 AM session path: ../data/session/
+04/12/2024 09:43:47 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 09:43:47 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 09:43:48 AM Starting new HTTP connection (1): localhost:9515
+04/12/2024 09:43:48 AM http://localhost:9515 "POST / HTTP/1.1" 404 575
+04/12/2024 09:43:48 AM <Response [404]>
+04/12/2024 09:43:48 AM <Response [404]>
+04/12/2024 09:43:48 AM not the id
+04/12/2024 11:29:02 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 11:29:02 PM session path: ../data/session/
+04/12/2024 11:29:02 PM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 11:29:02 PM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 11:29:02 PM Starting new HTTP connection (1): localhost:9515
+04/12/2024 11:29:02 PM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/12/2024 11:29:02 PM <Response [200]>
+04/12/2024 11:29:02 PM <Response [200]>
+04/12/2024 11:29:02 PM not the id
+04/12/2024 11:29:10 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 11:29:10 PM session path: ../data/session/
+04/12/2024 11:29:10 PM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 11:29:10 PM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/12/2024 11:29:10 PM Starting new HTTP connection (1): localhost:9515
+04/12/2024 11:29:11 PM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/12/2024 11:29:11 PM <Response [200]>
+04/12/2024 11:29:11 PM <Response [200]>
+04/12/2024 11:29:11 PM not the id
+04/12/2024 11:47:13 PM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/12/2024 11:47:13 PM session path: ../data/session/
+04/12/2024 11:47:13 PM ['chrome-session-details.json', 'gecko-session-details.json']
+04/12/2024 11:47:13 PM server path: http://localhost:4444, file path: ../data/session/chrome-session-details.json
+04/12/2024 11:47:13 PM Starting new HTTP connection (1): localhost:4444
+04/12/2024 11:47:13 PM http://localhost:4444 "POST / HTTP/1.1" 405 23
+04/12/2024 11:47:13 PM <Response [405]>
+04/13/2024 12:05:31 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:05:31 AM session path: ../data/session/
+04/13/2024 12:05:31 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:05:31 AM server path: http://localhost:4444, file path: ../data/session/chrome-session-details.json
+04/13/2024 12:05:31 AM Starting new HTTP connection (1): localhost:4444
+04/13/2024 12:05:37 AM http://localhost:4444 "POST /session HTTP/1.1" 500 105
+04/13/2024 12:05:37 AM <Response [500]>
+04/13/2024 12:07:53 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:07:53 AM session path: ../data/session/
+04/13/2024 12:07:53 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:07:53 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:07:53 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:07:53 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:07:53 AM <Response [200]>
+04/13/2024 12:10:24 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:10:24 AM session path: ../data/session/
+04/13/2024 12:10:24 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:10:24 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:10:24 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:10:24 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:10:24 AM <Response [200]>
+04/13/2024 12:10:24 AM <Response [200]>
+04/13/2024 12:10:24 AM unhandled response, check the logs
+04/13/2024 12:10:30 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:10:30 AM session path: ../data/session/
+04/13/2024 12:10:30 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:10:30 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:10:30 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:10:31 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:10:31 AM <Response [200]>
+04/13/2024 12:10:31 AM <Response [200]>
+04/13/2024 12:10:31 AM unhandled response, check the logs
+04/13/2024 12:10:35 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:10:35 AM session path: ../data/session/
+04/13/2024 12:10:35 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:10:35 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:10:35 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:10:36 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:10:36 AM <Response [200]>
+04/13/2024 12:10:36 AM <Response [200]>
+04/13/2024 12:10:36 AM unhandled response, check the logs
+04/13/2024 12:27:05 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:27:05 AM session path: ../data/session/
+04/13/2024 12:27:05 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:27:05 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:27:05 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:27:06 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:27:06 AM <Response [200]>
+04/13/2024 12:27:06 AM {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"123.0.6312.86","chrome":{"chromedriverVersion":"123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})","userDataDir":"/tmp/.org.chromium.Chromium.TpI4ev"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:42181"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"516f4297fc120bb25d112e0f32d024eb"}}
+04/13/2024 12:30:28 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:30:28 AM session path: ../data/session/
+04/13/2024 12:30:28 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:30:28 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:30:28 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:30:29 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:30:29 AM <Response [200]>
+04/13/2024 12:30:29 AM {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"123.0.6312.86","chrome":{"chromedriverVersion":"123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})","userDataDir":"/tmp/.org.chromium.Chromium.3BKKpE"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:46671"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"db2657af1ff1aef1dee8554117b8d0e4"}}
+04/13/2024 12:36:02 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:36:02 AM session path: ../data/session/
+04/13/2024 12:36:02 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:36:02 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:36:02 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:36:03 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:36:03 AM <Response [200]>
+04/13/2024 12:36:03 AM {'value': {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.xEzkSN'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:40775'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': 'bad0646e9cdf2d99556b4ef7faaffd40'}}
+04/13/2024 12:36:26 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:36:26 AM session path: ../data/session/
+04/13/2024 12:36:26 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:36:26 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:36:26 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:36:26 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:36:26 AM <Response [200]>
+04/13/2024 12:36:26 AM {'value': {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.AUU3AP'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:34913'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': '089ca7669893b68b9b0efdeb2dcd3e4f'}}
+04/13/2024 12:42:22 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:42:22 AM session path: ../data/session/
+04/13/2024 12:42:22 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:42:22 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:42:22 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:42:22 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:42:22 AM <Response [200]>
+04/13/2024 12:42:22 AM {'value': {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.DLdnXy'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:38139'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': '52ec81cc49f31c8d9bb12fec9a7965b9'}}
+04/13/2024 12:42:22 AM {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.DLdnXy'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:38139'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': '52ec81cc49f31c8d9bb12fec9a7965b9'}
+04/13/2024 12:43:35 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:43:35 AM session path: ../data/session/
+04/13/2024 12:43:35 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:43:35 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:43:35 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:43:35 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:43:35 AM <Response [200]>
+04/13/2024 12:43:35 AM {'value': {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.tj1cIl'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:40709'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': '05cf50034747cf0ab4e75f48b39bbb32'}}
+04/13/2024 12:43:35 AM {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.tj1cIl'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:40709'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}
+04/13/2024 12:44:44 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'GECKO_PATH': '../data/./geckodriver', 'SESSION_PATH': '../data/session/'}
+04/13/2024 12:44:44 AM session path: ../data/session/
+04/13/2024 12:44:44 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 12:44:44 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 12:44:44 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 12:44:45 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 12:44:45 AM <Response [200]>
+04/13/2024 12:44:45 AM {'value': {'capabilities': {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '123.0.6312.86', 'chrome': {'chromedriverVersion': '123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})', 'userDataDir': '/tmp/.org.chromium.Chromium.AFwZ5x'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:45735'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'linux', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}, 'sessionId': '74974f746bc53d6fc60153492b1bc2c4'}}
+04/13/2024 12:44:45 AM 74974f746bc53d6fc60153492b1bc2c4
+04/13/2024 01:22:48 AM {'CHROME_PATH': '../data/chromedriver-linux64/./chromedriver', 'CHROME_SOCKET': 'http://localhost:9515', 'GECKO_PATH': '../data/./geckodriver', 'GECKO_SOCKET': 'http://localhost:4444', 'SESSION_PATH': '../data/session/'}
+04/13/2024 01:22:48 AM chrome socket: http://localhost:9515
+04/13/2024 01:22:48 AM gecko socket: http://localhost:4444
+04/13/2024 01:22:48 AM session path: ../data/session/
+04/13/2024 01:22:48 AM ['chrome-session-details.json', 'gecko-session-details.json']
+04/13/2024 01:22:48 AM server path: http://localhost:9515, file path: ../data/session/gecko-session-details.json
+04/13/2024 01:22:48 AM Starting new HTTP connection (1): localhost:9515
+04/13/2024 01:22:48 AM http://localhost:9515 "POST /session HTTP/1.1" 200 847
+04/13/2024 01:22:48 AM <Response [200]>
+04/13/2024 01:22:48 AM Created, id: c42323a58509ce046a70a1aa6ab08ae3
