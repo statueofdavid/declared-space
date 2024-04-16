@@ -6,8 +6,42 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" href="index.css">
 	</head>
+	<script type=module src=index.js></script>
 	<body>
-		<input type="checkbox" id="checkbox_toggle">
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+		<brand-header></brand-header>
+
+
+	<div id="id01" class="modal">
+  	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  	<form class="modal-content" action="/action_page.php">
+    	<div class="container">
+      		<h1>Sign Up</h1>
+      		<p>.</p>
+      		<hr>
+      		<label for="email"><b>Email</b></label>
+      		<input type="text" placeholder="Enter Email" name="email" required>
+
+      		<label for="psw"><b>Password</b></label>
+      		<input type="password" placeholder="Enter Password" name="psw" required>
+
+      		<label for="psw-repeat"><b>Repeat Password</b></label>
+      		<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      		<label>
+        		<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      		</label>
+
+      		<p>By creating an account you agree to our <a href="tos.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      		<div class="clearfix">
+        		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        		<button type="submit" class="signupbtn">Sign Up</button>
+      		</div>
+    	</div>
+  	</form>
+	</div>
+
 		<label for="checkbox_toggle">
 		<svg version="1.1"
 			viewBox="0.0 0.0 960.0 720.0"
@@ -33,7 +67,7 @@
 					<!-- plan -->
 					<a href="plan.html">
 						<path id="plan" d="m648.49866 439.81628l-10.80835 -14.965881l-4.9868774 -19.955383l-4.989502 -19.952759l11.640381 -17.45932l-7.48291 -11.640411l-3.3254395 -14.965881l8.314941 -11.637817l-3.328064 -9.978973l1.6640015 -27.4357l-6.650879 -6.65094l4.1574707 -15.797882l13.301819 -17.45932l-0.83203125 -30.761154l-11.640381 -23.280853l4.1574707 -31.59317l-9.976379 -18.291336l0.83203125 -32.42257l17.45929 -22.448822l-2.4934082 -17.45932l57.36743 9.144356l118.05774 84.80315l23.280823 27.438324l10.808411 11.637802l23.278198 13.304459l14.13385 7.4829407l16.629944 24.11023l5.8189087 18.291351l5.8189087 21.61679l-6.65094 35.75064l-14.13385 39.07614l-39.905518 42.40155l-59.863525 19.952759l-61.522278 8.314972l-59.863525 -4.989502z" fill-rule="evenodd"/>
-						<text id="plan-text" x="80%" y="40%" fill="transparent" text-anchor="middle">What's Doing</text>
+						<text id="plan-text" x="80%" y="40%" fill="transparent" text-anchor="middle">What's Happening</text>
 					</a>
 					<!-- action -->
 					<a href="action.html">
@@ -63,6 +97,6 @@
 			<a href="feel.html"><li>Blog</li></a>
 			<a href="#"><li>Contact</li></a>
 			<a href="index.html"><li>Show me more</li></a>
-		</ul>
+		</u>
 	</body>
 </html>
