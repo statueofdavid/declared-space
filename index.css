@@ -1,18 +1,33 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional: Center vertically if needed */
+  width: 100%; /* Stretch the wrapper to fill the viewport width */
+}
+
 .svg-button {
   padding: 10px 20px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
   color: #000;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* Ensures container fills viewport width */
-  height: 100vh; /* Or a specific height for the container */
+  width: [SVG width]px;
+  height: [SVG height]px;
+  position: relative;
+  bottom: 50%;
 }
 
 .svg-button:hover {
   background-color: #eee;
+}
+
+.svg-button span {
+  position: absolute;
+  transform: translate(-50%, -50%)
+  color: #fff;
 }
 
