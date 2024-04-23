@@ -1,11 +1,8 @@
-.brain-button {
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  display: block;
-  align-items: center;
-  background: transparent;
-  border-width: 0;
-  padding: 0;
-  line-height:0px
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Offset by half width/height */
+  /* Optional styles for button appearance (size, background, etc.) */
 }
+
