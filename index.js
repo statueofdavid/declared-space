@@ -1,11 +1,13 @@
 const signInModal = document.getElementById('signInModal')
 const signInInput = document.getElementById('signInInput')
-SignInModal.addEventListener('shown.bs.modal', () => {
-  SignInInput.focus()
+
+signInModal.addEventListener('shown.bs.modal', () => {
+	signInInput.focus()
 })
 
-const LogInModal = document.getElementById('signInModal')
-const LogInInput = document.getElementById('signInInput')
-LogInModal.addEventListener('shown.bs.modal', () => {
-  LogInInput.focus()
+const logInModal = document.getElementById('logInModal')
+const logInInput = document.getElementById('logInInput')
+
+logInModal.addEventListener('shown.bs.modal', () => {
+	logInInput.focus()
 })
