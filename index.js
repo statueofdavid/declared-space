@@ -1,13 +1,36 @@
-const signInModal = document.getElementById('signInModal')
-const signInInput = document.getElementById('signInInput')
+function validateEmailFromSignUpInput() {
+	var element = document.getElementById("signUpInputEmail");
+	var email = element.value;
 
-signInModal.addEventListener('shown.bs.modal', () => {
-	signInInput.focus()
-})
+	var message = ""
+	var messageElement = document.getElementById("email-error-message");
+	
+	if(!InputValidator.validateEmail(email)) {
+		messageElement.textContent = message;
+		element.style.borderColor = "red";
+		messageElement.style.visibility = "visible";
+	} else {
+		element.style.borderColor = "";
+		messageElement.style.visibility = "hidden";
+	}
+}
 
-const logInModal = document.getElementById('logInModal')
-const logInInput = document.getElementById('logInInput')
+function validatePasswordFromRepeatPasswordInput() {
+	var passwordElement = document.getElementById("signUpInputPassword");
+	var repeatElement = document.getElementById("signUpInputRepeatPassword");
 
-logInModal.addEventListener('shown.bs.modal', () => {
-	logInInput.focus()
-})
+	var password = passwordElement.value;
+	var repeat = repeatElement.value;
+
+	var message = "";
+	var messageElement = document.getElementById("match-error-message");
+
+	if(!InputValidator.wordMatch(password, repeat)) {
+		messageElement.textContent = message;		
+		repeatElement.style.borderColor = "red";
+		messageElement.style.visibility = "visible";
+	} else {
+		repeatElement.style.borderColor = "";
+		messageElement.style.visibility = "hidden";
+	}
+}
