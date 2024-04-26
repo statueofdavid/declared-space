@@ -6,6 +6,7 @@ function validateEmailFromSignUpInput() {
 	var messageElement = document.getElementById("email-error-message");
 	
 	if(!InputValidator.validateEmail(email)) {
+		message = "Please Enter a Valid Email"
 		messageElement.textContent = message;
 		element.style.borderColor = "red";
 		messageElement.style.visibility = "visible";
@@ -26,6 +27,7 @@ function validatePasswordFromRepeatPasswordInput() {
 	var messageElement = document.getElementById("match-error-message");
 
 	if(!InputValidator.wordMatch(password, repeat)) {
+		message = "Please Make the Words Match"
 		messageElement.textContent = message;		
 		repeatElement.style.borderColor = "red";
 		messageElement.style.visibility = "visible";
