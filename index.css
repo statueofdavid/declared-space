@@ -5,3 +5,19 @@
   transform: translate(-50%, -50%);  /* Offset by half width/height */
   /* Optional styles for button appearance (size, background, etc.) */
 }
+
+svg {
+	animation: brain-alive 5s infinite;
+}
+
+svg:hover {
+color: #f1b6d0;
+}
+
+@keyframes brain-alive {
+0% {scale: 1.52}
+50% {scale: 1.73}
+100% {scale: 1.52}
+
+}
+
