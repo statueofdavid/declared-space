@@ -32,7 +32,6 @@ async function open() {
 }	
 
 async function addUser(db, email, password, tosAgree) {
-
 	const data = {
 		email: email,
 		password: password,
@@ -48,14 +47,12 @@ async function addUser(db, email, password, tosAgree) {
 	persist.add(data);
 }
 
-
 async function registerUser() {
-
-        var element = document.getElementById("signUpInputEmail");
-	var passwordElement = document.getElementById("signUpInputPassword");
-        var tosToggleElement = document.getElementById("invalidCheck");
-        
-	var email = element.value;
+	const emailElement = document.getElementById("signUpInputEmail");
+	const passwordElement = document.getElementById("signUpInputPassword");
+	const tosToggleElement = document.getElementById("invalidCheck");
+	
+	var email = emailElement.value;
         var password = passwordElement.value;
         var tosToggle = tosToggleElement.checked;
 

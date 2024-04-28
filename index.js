@@ -1,6 +1,12 @@
-function validateEmailFromSignUpInput() {
-	var element = document.getElementById("signUpInputEmail");
-	var email = element.value;
+const emailElement = document.getElementById("signUpInputEmail");
+const passwordElement = document.getElementById("signUpInputPassword");
+const repeatElement = document.getElementById("signUpInputRepeatPassword");
+
+const tosToggleElement = document.getElementById("invalidCheck");
+const registerButtonElement = document.getElementById("registerButton");
+
+function validateEmail() {
+	var email = emailElement.value;
 
 	var message = ""
 	var messageElement = document.getElementById("email-error-message");
@@ -8,18 +14,20 @@ function validateEmailFromSignUpInput() {
 	if(!InputValidator.validateEmail(email)) {
 		message = "Please Enter a Valid Email"
 		messageElement.textContent = message;
-		element.style.borderColor = "red";
 		messageElement.style.visibility = "visible";
+
+		emailElement.style.borderColor = "red";
+
+		return false
 	} else {
-		element.style.borderColor = "";
+		emailElement.style.borderColor = "";
 		messageElement.style.visibility = "hidden";
+
+		return true
 	}
 }
 
-function validatePasswordFromRepeatPasswordInput() {
-	var passwordElement = document.getElementById("signUpInputPassword");
-	var repeatElement = document.getElementById("signUpInputRepeatPassword");
-
+function validatePasswordMatch() {
 	var password = passwordElement.value;
 	var repeat = repeatElement.value;
 
@@ -31,8 +39,22 @@ function validatePasswordFromRepeatPasswordInput() {
 		messageElement.textContent = message;		
 		repeatElement.style.borderColor = "red";
 		messageElement.style.visibility = "visible";
+
+		return false;
 	} else {
 		repeatElement.style.borderColor = "";
 		messageElement.style.visibility = "hidden";
+
+		return true;
+	}
+}
+
+function isToggled() {
+	return tosToggleElement.checked;
+}
+
+function validateFormDataBeforePersistence() {
+	if(validateEmail() && validatePasswordMatch() && isToggled()) {
+		registerButton.disabled = false;
 	}
 }

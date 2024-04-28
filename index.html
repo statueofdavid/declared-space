@@ -45,7 +45,7 @@
 					<form class="row g-3">
 						<div class="col-md-6">
 							<label for="signUpInputEmail" class="form-label">Email</label>
-							<input type="text" class="form-control" id="signUpInputEmail" onkeyup="validateEmailFromSignUpInput()">
+							<input type="text" class="form-control" id="signUpInputEmail" onkeyup="validateEmail()">
 							<span id="email-error-message"></span>
 						</div>
 						<div class="col-md-6">
@@ -54,7 +54,7 @@
 						</div>
 						<div class="col-md-6">
 							<label for="signUpInputRepeatPassword" class="form-label">Repeat Password</label>
-							<input type="password" class="form-control" id="signUpInputRepeatPassword" onkeyup="validatePasswordFromRepeatPasswordInput()">
+							<input type="password" class="form-control" id="signUpInputRepeatPassword" onkeyup="validatePasswordMatch()">
 							<span id="match-error-message"></span>
 						</div>
 				</div>
@@ -69,7 +69,7 @@
 						  </div>
 					  </div>
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-					<button type="button" class="btn btn-primary" id="registerButton" onclick="registerUser()">Register</button>
+					<button type="button" class="btn btn-primary" id="registerButton" onclick="registerUser()" disabled>Register</button>
 				</div>
 			</div>
 		</div>
