@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link href="index.css" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<script src="browserdb.js"></script>
 	</head>
 	<body>
 	<div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="logInModalLabel" aria-hidden="true">
@@ -68,7 +69,7 @@
 						  </div>
 					  </div>
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-					<button type="button" class="btn btn-primary">Sign Up</button>
+					<button type="button" class="btn btn-primary" id="registerButton" onclick="registerUser()">Register</button>
 				</div>
 			</div>
 		</div>
@@ -97,7 +98,7 @@
 	</div>
 	<div class="row justify-content-center align-items-center">
 		<button type="button" class="btn absolute-center" style="--bs-btn-width: 30%;" data-bs-toggle="offcanvas" data-bs-target="#productMenu" aria-controls="productMenu">
-			<svg class="hvr-buzz-out" onclick="brainAnimation.js">
+			<svg class="hvr-buzz-out">
 				<path d="m 152.9749 10.2913 l 10.6699 2.569 l 13.9528 7.2254 l 10.998 2.4088 l 7.3871 5.1379 l 8.864 6.4229 l 7.2228 4.3355 l 5.2526 6.9045 l 8.0436 5.138 l 5.2526 6.9045 l 0.8208 5.7807 l -1.1489 8.8312 l -3.2829 6.5836 l -7.0585 7.5467 l -12.8039 4.335 l -12.1473 1.2845 l -10.998 -1.1238 l -5.9097 2.0874 l -5.2526 7.0652 l 0.8203 5.62 v 7.0647 l -8.3717 3.051 l -4.4317 1.2845 l -12.8039 -0.8029 h -9.5211 l -9.6848 -5.1379 l -8.3717 2.2476 l -4.9245 3.854 l -3.4471 2.569 l -3.4471 5.1385 l -4.4322 3.3719 l -2.462 3.8535 l -0.8208 3.8535 l -4.5965 4.9778 l -1.9697 2.0874 l -7.0585 0.6422 l 0.9131 -1.6058 l 1.8801 -2.2071 l 1.8806 -1.4715 l 1.3162 -2.391 l 1.6925 -1.2875 l 0.3757 -0.92 l 0.1881 -1.655 l 0.7524 -2.5751 l 3.1963 -4.9666 l -1.3163 2.7591 l 2.2563 -4.9661 l 0.7524 -2.391 l -0.7524 -3.1271 l -0.7519 -3.6786 l -1.5044 -2.9426 l -2.4444 -2.0235 l -2.8206 -1.839 l -3.1963 -1.8395 l -1.6925 -1.6556 l -0.5643 -2.391 l 0.3762 -2.023 l -2.6325 -2.5751 l 1.1281 -2.5751 l -0.5638 -4.2306 l 0.94 -1.6555 l 0.94 -1.2875 h 1.8806 l -2.0687 -1.4715 l -2.1304 -0.8993 l -6.402 -5.7802 l -11.3265 -5.7807 l -0.1643 -4.4957 l -2.462 -7.5467 l 2.2983 -4.8171 l 3.7752 -5.9414 l 10.8342 -4.3355 l 5.5811 -6.7438 l 9.3568 -4.8171 l 5.7449 -7.0647 l 8.5359 -2.8903 l 6.8943 -4.6564 l 10.6699 -1.7665 l 5.4174 -3.5326 l 5.5811 -0.9631 l 6.5657 -1.1243 l 4.7608 -1.1238 z" fill="#d9d9d9"/>
 			</svg>
 		</button>
