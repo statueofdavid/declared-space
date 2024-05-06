@@ -1,5 +1,5 @@
 # declared-space
-portfolio website, the gateway ui for the rest of my projects
+the gateway ui for the rest of my projects
 
 https://declared.space
 
